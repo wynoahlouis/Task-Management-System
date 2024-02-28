@@ -1,4 +1,4 @@
-<?php include("./include/header.php"); ?>
+<!-- <?php include("./include/header.php"); ?>
  <div class="container-fluid mt-4">
  <section class="section">
       <div class="row">
@@ -71,4 +71,4 @@
     </section>
  </div>
 
- <?php include("./include/footer.php"); ?>
+ <?php include("./include/footer.php"); ?> -->

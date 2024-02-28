@@ -9,7 +9,7 @@
               <h5 class="card-title">TASK MANAGEMENT</h5>
 
               <a href="create_task.php" style="float: right;" class="btn btn-primary">Add New Task</a>
-
+              <!-- Table with stripped rows -->
               <table class="table tasks">
                 <thead>
                   <tr>
@@ -62,6 +62,7 @@
 
                 </tbody>
               </table>
+              <!-- End Table with stripped rows -->
 
             </div>
           </div>

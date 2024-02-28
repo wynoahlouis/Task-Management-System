@@ -1,4 +1,8 @@
-<?php include("./include/header.php"); ?>
+
+
+<!-- EDITED INDEX -->
+
+ <?php include("./include/header.php"); ?>
  <div class="container-fluid mt-4">
  <section class="section">
       <div class="row">
@@ -9,12 +13,12 @@
               <h5 class="card-title">TASK MANAGEMENT</h5>
 
               <a href="create_task.php" style="float: right;" class="btn btn-primary">Add New Task</a>
-
+              <!-- Table with stripped rows -->
               <table class="table tasks">
                 <thead>
                   <tr>
                     <th class="col">Title</th>
-                    <th class="col">Description</th>
+                    <!-- <th class="col">Description</th> -->
                     <th class="col">Priority</th>
                     <th class="col">Due Date</th>
                   </tr>
@@ -23,7 +27,7 @@
 
 
                 <?php
-                $query = "SELECT * FROM `tasks`";
+                $query = "SELECT `id`, `title`, `priority`, `due_date` FROM `tasks`";
                 $query_run = mysqli_query($con, $query);
                 if(mysqli_num_rows($query_run) > 0)
                 {
@@ -32,7 +36,7 @@
                 ?>
                     <tr>
                 <td><?= $row['title']; ?></td>
-                <td><?= $row['description']; ?></td>
+                <!-- <td><?= $row['description']; ?></td> -->
                 <td><?= $row['priority']; ?></td>
                 <td><?= $row['due_date']; ?></td>
 
@@ -62,6 +66,7 @@
 
                 </tbody>
               </table>
+              <!-- End Table with stripped rows -->
 
             </div>
           </div>
