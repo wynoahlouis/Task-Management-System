@@ -1,10 +1,10 @@
 <?php include("./include/header.php"); ?>
- <div class="container-fluid mt-4">
+ <div class="container-fluid mt-4" >
  <section class="section">
       <div class="row">
         <div class="col-lg-12">
 
-          <div class="card">
+          <div class="card" style="padding: 20px; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; border-radius: 30px;">
             <div class="card-body">
               <h5 class="card-title">TASK MANAGEMENT</h5>
 
@@ -38,10 +38,10 @@
 
                 <td>
 
-                <a type="button" class="btn btn-outline-primary" href="view_detailed_task.php?id=<?=$row['id'];?>">VIEW</a>
-                <a type="button" class="btn btn-outline-warning" href="update_task.php?id=<?=$row['id'];?>">UPDATE</a>
+                <a type="button" class="btn btn-primary" href="view_detailed_task.php?id=<?=$row['id'];?>">VIEW</a>
+                <a type="button" class="btn btn-warning" href="update_task.php?id=<?=$row['id'];?>">UPDATE</a>
                 
-                <a type="button" class="btn btn-outline-danger"  href="delete_task.php?id=<?=$row['id'];?>">DELETE</button>
+                <a type="button" class="btn btn-danger"  href="delete_task.php?id=<?=$row['id'];?>">DELETE</button>
                 
               </td>
                     </tr>
