@@ -38,7 +38,7 @@
 
                 <td>
 
-                <a type="button" class="btn btn-outline-primary" href="view_detailed_task.php?id=<?=$row['id'];?>">VIEW</a>
+                <a type="button" class="btn btn-outline-primary" href="view_task.php?id=<?=$row['id'];?>">VIEW</a>
                 <a type="button" class="btn btn-outline-warning" href="update_task.php?id=<?=$row['id'];?>">UPDATE</a>
                 
                 <a type="button" class="btn btn-outline-danger"  href="delete_task.php?id=<?=$row['id'];?>">DELETE</button>
