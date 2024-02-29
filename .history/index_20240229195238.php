@@ -3,12 +3,12 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-6 text-center">
-            <h3>Welcome to TaskManager</h3>
+            <h1>Welcome to TaskManager</h1>
             <p>Manage your task now!</p>
             <a href="view_task.php" class="btn btn-primary" style="border-radius:30px; padding: 10px; width:30%">Start Now</a>
         </div>
         <div class="col-md-6 text-center" >
-            <img src="logo_tm2.png" alt="Task Manager Logo" style="max-width: 100%; ">
+            <img src="logo_tm2.png" alt="Task Manager Logo" style="width: 100%; margin-top: -50px;">
         </div>
     </div>
 </div>
@@ -18,14 +18,11 @@
     .container {
         display: flex;
         align-items: center;
-        height: 100vh;
-        justify-content: center;
+        height: 100vh; /* Set container height to viewport height for full-screen centering */
     }
 
     .row {
-        width: 100%;
-        justify-content: center;
-
+        width: 100%; /* Ensure row takes up full width */
     }
 </style>
 
