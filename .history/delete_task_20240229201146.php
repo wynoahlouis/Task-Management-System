@@ -22,26 +22,29 @@
             ?>
             
             <div class="row">
-                <div class="col-md-12 mb-3" style="align-items: center;">
-                    <label for="title" class="form-label" style="margin: 0; font-weight: 500">Task Title</label>
-                    <p style="font-size:120%; font-weight: 200;  text-align: justify;"><?=$user['title'];?></p>
-                </div>
+                    <div class="col-md-12 mb-3" style="align-items: center;">
+                        <label for="title" class="form-label" style="margin: 0; font-weight: 500">Task Title</label>
+                        <p style="font-size:150%; font-weight: 200;  text-align: justify;"><?=$user['title'];?></p>
+                    </div>
 
-                <div class="col-md-12 mb-3">
-                    <label for="description" class="form-label" style="margin: 0; font-weight: 500">Description</label>
-                    <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['description'];?></p>
-                </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="description" class="form-label" style="margin: 0; font-weight: 500">Description</label>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['description'];?></p>
+                    </div>
 
-                <div class="col-md-6 mb-3">
-                    <label for="priority" style="margin: 0; font-weight: 500">Priority Level</label>
-                    <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['priority'];?></p>
-                </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="priority" style="margin: 0; font-weight: 500">Priority Level</label>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['priority'];?></p>
+                    </div>
 
-                <div class="col-md-6 mb-3">
-                    <label for="due_date" class="form-label" style="margin: 0; font-weight: 500">Due Date</label>
-                    <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
+                    <div class="col-md-6 mb-3">
+                        <label for="due_date" class="form-label" style="margin: 0; font-weight: 500">Due Date</label>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
+                    </div>
+                 
+                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width:70%; align-self:center;" name="cancelButton">Go Back</a>
+
                 </div>
-            </div>
 
             <?php
                 }
@@ -58,8 +61,8 @@
             
             <form method="POST" action="process.php" style="display: flex; justify-content: center">
                 <input type="hidden" name="id" value="<?=$user['id'];?>">
-                <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 30%;">Cancel</a>
-                <button type="submit" class="btn btn-danger" name="deleteButton" style="border-radius: 20px; width: 30%">Delete</button>
+                <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px;">Cancel</a>
+                <button type="submit" class="btn btn-danger" name="deleteButton" style="border-radius: 20px;">Delete</button>
             </form>
         </div>
     </div>

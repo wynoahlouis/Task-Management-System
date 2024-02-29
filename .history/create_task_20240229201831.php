@@ -1,10 +1,11 @@
 <?php include("./include/header.php"); ?>
 
-<!-- <div class="container-fluid mt-4" >
-<h1 class="text-center">ADD NEW TASK</h1> -->
-<div class="container mt-4" style="padding: 20px; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; border-radius: 30px;">
+<div class="container-fluid mt-4" >
+    <div class="row" style="padding: 20px; width: 50%; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; border-radius: 30px;">
     <div class="row justify-content-center">
         <div class="col-lg-9">
+            <h1 class="text-center">ADD NEW TASK</h1>
+
             <form action="process.php" method="POST">
                 <div class="row">
                     <div class="col-md-12 mb-3">
@@ -40,7 +41,7 @@
         </div>
     </div>
 </div>
-<!-- </div> -->
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

@@ -59,7 +59,7 @@
             <form method="POST" action="process.php" style="display: flex; justify-content: center">
                 <input type="hidden" name="id" value="<?=$user['id'];?>">
                 <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 30%;">Cancel</a>
-                <button type="submit" class="btn btn-danger" name="deleteButton" style="border-radius: 20px; width: 30%">Delete</button>
+                <button type="submit" class="btn btn-danger" name="deleteButton" style="border-radius: 20px;">Delete</button>
             </form>
         </div>
     </div>

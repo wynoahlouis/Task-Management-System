@@ -63,7 +63,7 @@ if(isset($_POST["deleteButton"])){
     if($delete_result){
             $_SESSION['status'] = "Deleted Successfully!";
             $_SESSION['status_code'] = "success";
-            header("Location: view_task.php");
+            header("Location: index.php");
             exit();
     }else{
         $_SESSION['status'] = "Error";
