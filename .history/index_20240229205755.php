@@ -20,6 +20,7 @@
         align-items: center;
         height: 100vh;
         justify-content: center;
+        background-color: black;
     }
 
     .row {

@@ -8,7 +8,7 @@
             <a href="view_task.php" class="btn btn-primary" style="border-radius:30px; padding: 10px; width:30%">Start Now</a>
         </div>
         <div class="col-md-6 text-center" >
-            <img src="logo_tm2.png" alt="Task Manager Logo">
+            <img src="logo_tm2.png" alt="Task Manager Logo" style="width:100% ">
         </div>
     </div>
 </div>
@@ -29,8 +29,7 @@
     }
 
     img {
-        margin-top: -100px;
-        width: 100%;
+        margin-top: -500px;
     }
 </style>
 
