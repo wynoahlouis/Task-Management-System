@@ -39,9 +39,14 @@
                         <label for="due_date" class="form-label" style="margin: 0; font-weight: 500">Due Date</label>
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
                     </div>
-                 
-                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width:70%; align-self:center;" name="cancelButton">Go Back</a>
+                    
+                    
+                    
 
+                </div>
+                
+                <div style="display:flex; justify-content:center">
+                    <a href="view_task.php" type="button" class="btn btn-secondary" style="display:flex; border-radius: 20px; width:40%; justify-content: center;" name="cancelButton">Go Back</a>
                 </div>
 
             <?php
