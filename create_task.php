@@ -1,8 +1,8 @@
 <?php include("./include/header.php"); ?>
 
-<div class="container-fluid mt-4">
+<div class="container-fluid mt-4" >
 <h1 class="text-center">ADD NEW TASK</h1>
-<div class="container mt-4">
+<div class="container mt-4" style="padding: 20px; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; border-radius: 30px;">
     <div class="row justify-content-center">
         <div class="col-lg-9">
             <form action="process.php" method="POST">
