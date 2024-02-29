@@ -57,8 +57,8 @@
                     <div class="col-md-12 mb-3 d-flex justify-content-end">
                     <form method="POST" action="process.php" style="display: flex; justify-content: right;">
                         <input type="hidden" name="id" value="<?=$user['id'];?>">
-                        <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 20%; padding:8px;">Cancel</a>
-                        <button type="submit" class="btn btn-success" name="updateButton" style="border-radius: 20px; width: 20%; padding:8px;">Update</button>
+                        <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 20%; padding:20px;">Cancel</a>
+                        <button type="submit" class="btn btn-success" name="updateButton" style="border-radius: 20px; width: 20%; padding:20px;">Update</button>
                      </form>
                      </div>
                 </div>

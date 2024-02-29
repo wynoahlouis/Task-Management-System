@@ -46,7 +46,7 @@
 
                     <div class="col-md-4 mb-3">
                         <label for="due_date" class="form-label">Due Date</label>
-                        <input type="date" class="form-control" id="due_date" value="<?=$user['due_date'];?>" name="due_date"> <br>
+                        <input type="date" class="form-control" id="due_date" value="<?=$user['due_date'];?>" name="due_date">
                     </div>
 
 
@@ -54,11 +54,11 @@
                         <a href="view_task.php" class="btn btn-secondary" style="float: right;">Cancel</a>
                         <button type="submit" class="btn btn-primary"  style="float: right;" name="updateButton">Update</button>
                     </div> -->
-                    <div class="col-md-12 mb-3 d-flex justify-content-end">
-                    <form method="POST" action="process.php" style="display: flex; justify-content: right;">
+                    <div class="col-md-12 mb-3 text-center">
+                    <form method="POST" action="process.php" style="display: flex; justify-content: right">
                         <input type="hidden" name="id" value="<?=$user['id'];?>">
-                        <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 20%; padding:8px;">Cancel</a>
-                        <button type="submit" class="btn btn-success" name="updateButton" style="border-radius: 20px; width: 20%; padding:8px;">Update</button>
+                        <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 30%;">Cancel</a>
+                        <button type="submit" class="btn btn-success" name="updateButton" style="border-radius: 20px; width: 30%">Update</button>
                      </form>
                      </div>
                 </div>

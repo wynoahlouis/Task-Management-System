@@ -22,22 +22,22 @@
                     <h4 style="margin: 10; font-weight: 300px; text-align:center;">TASK INFORMATION</h4>
                     <div class="col-md-12 mb-3">
                         <label for="title" class="form-label" style="margin: 0; font-weight: 500">Task Title</label>
-                        <p style="font-size:120%; font-weight: 200;  text-align: justify;"><?=$user['title'];?></p>
+                        <p style="font-size:150%; font-weight: 200;  text-align: justify;"><?=$user['title'];?></p>
                     </div>
 
                     <div class="col-md-12 mb-3">
                         <label for="description" class="form-label" style="margin: 0; font-weight: 500">Description</label>
-                        <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['description'];?></p>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['description'];?></p>
                     </div>
 
                     <div class="col-md-6 mb-3">
                         <label for="priority" style="margin: 0; font-weight: 500">Priority Level</label>
-                        <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['priority'];?></p>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['priority'];?></p>
                     </div>
 
                     <div class="col-md-6 mb-3">
                         <label for="due_date" class="form-label" style="margin: 0; font-weight: 500">Due Date</label>
-                        <p style="font-size:120%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
+                        <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
                     </div>
                     
                     

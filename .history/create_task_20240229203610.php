@@ -9,17 +9,17 @@
                 <div class="row">
                     <div class="col-md-12 mb-3">
                         <label for="title" class="form-label">Task Title</label>
-                        <input type="text" class="form-control" id="title" name="title" required>
+                        <input type="text" class="form-control" id="title" name="title">
                     </div>
 
                     <div class="col-md-4 mb-3">
                         <label for="description" class="form-label">Description</label>
-                        <input type="text" class="form-control" id="description" name="description" required>
+                        <input type="text" class="form-control" id="description" name="description">
                     </div>
                  
                     <div class="col-md-4 mb-3">
                         <label for="priority" class="form-label">Priority Level</label>
-                        <select name="priority" id="priority" class="form-control" required>
+                        <select name="priority" id="priority" class="form-control">
                             <option value="" disabled-selected style="color: #999;">-Select Priority Level-</option>
                             <option value="low">Low</option>
                             <option value="medium">Medium</option>
@@ -29,16 +29,12 @@
 
                     <div class="col-md-4 mb-3">
                         <label for="due_date" class="form-label">Due Date</label>
-                        <input type="date" class="form-control" id="due_date" name="due_date" required>
+                        <input type="date" class="form-control" id="due_date" name="due_date">
                     </div>
-                    
-                    <div class="col-md-12 mb-3 d-flex justify-content-end">
-                    <form method="POST" action="process.php" style="display: flex; justify-content: right;">
-                        <input type="hidden" name="id" value="<?=$user['id'];?>">
-                        <a href="view_task.php" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width: 20%; padding:8px;">Cancel</a>
-                        <button type="submit" class="btn btn-primary" name="insertButton" style="border-radius: 20px; width: 20%; padding:8px;">Add Task</button>
-                     </form>
-                     </div>
+
+                    <div class="col-md-12 mb-3 text-center">
+                        <button type="submit" class="btn btn-primary" name="insertButton" style="float: right;">Add Task</button>
+                    </div>
                 </div>
             </form>
         </div>
