@@ -33,7 +33,7 @@
                     <tr>
                 <td><?= $row['title']; ?></td>
                 <!-- <td><?= $row['description']; ?></td> -->
-                <td><?= strlen($row['description']) > 40 ? substr($row['description'], 0, 40) . '...' : $row['description']; ?></td>
+                <td><?= strlen($row['description']) > 5 ? substr($row['description'], 0, 55) . '...' : $row['description']; ?></td>
                 <td><?= $row['priority']; ?></td>
                 <td><?= $row['due_date']; ?></td>
 

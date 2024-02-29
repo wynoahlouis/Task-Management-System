@@ -40,7 +40,7 @@
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
                     </div>
                  
-                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width:70%; align-self:center;" name="cancelButton">Go Back</a>
+                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width:100%" name="cancelButton">Go Back</a>
 
                 </div>
 

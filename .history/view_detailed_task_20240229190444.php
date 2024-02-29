@@ -30,17 +30,18 @@
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['description'];?></p>
                     </div>
 
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-12 mb-3">
                         <label for="priority" style="margin: 0; font-weight: 500">Priority Level</label>
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['priority'];?></p>
                     </div>
 
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-12 mb-3">
                         <label for="due_date" class="form-label" style="margin: 0; font-weight: 500">Due Date</label>
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
                     </div>
-                 
-                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px; width:70%; align-self:center;" name="cancelButton">Go Back</a>
+                    
+                    <a href="update_task.php? id=<?=$row['id'];?>" type="button" class="btn btn-warning"  style="margin-right: 20px; border-radius: 20px;" name="updateButton">Edit Task</a>
+                    <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px;" name="cancelButton">Cancel</a>
 
                 </div>
 
