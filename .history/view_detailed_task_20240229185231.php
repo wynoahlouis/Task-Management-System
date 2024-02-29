@@ -1,6 +1,6 @@
 <?php include("./include/header.php"); ?>
 
-<!-- <h1 class="text-center">View Task</h1> -->
+<h1 class="text-center">View Task</h1>
     <div class="container mt-4" style="padding-top: 20px; width: 50%; box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; border-radius: 30px;">
         <div class="row justify-content-center">
             <div class="col-lg-9" style="margin: 0; padding: 30px">
@@ -19,7 +19,7 @@
             ?>
             
                 <div class="row">
-                    <h4 style="margin: 10; font-weight: 300px; text-align:center;">TASK INFORMATION</h4>
+                    <h1 style="margin: 0; font-weight: 200">Task Information</h1>
                     <div class="col-md-12 mb-3">
                         <label for="title" class="form-label" style="margin: 0; font-weight: 500">Task Title</label>
                         <p style="font-size:150%; font-weight: 200;  text-align: justify;"><?=$user['title'];?></p>

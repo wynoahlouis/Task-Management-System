@@ -40,7 +40,7 @@
                         <p style="font-size:150%; font-weight: 200; text-align: justify;"><?=$user['due_date'];?></p>
                     </div>
                     
-                    <a href="update_task.php? id=<?=$row['id'];?>" type="button" class="btn btn-warning"  style="margin-right: 20px; border-radius: 20px;">Edit Task</a>
+                    <a href="update_task.php? id=<?=$row['id'];?>" type="button" class="btn btn-warning"  style="margin-right: 20px; border-radius: 20px;">Edit Task</a> <br>
                     <a href="view_task.php" type="button" class="btn btn-secondary" style="margin-right: 20px; border-radius: 20px;">Cancel</a>
 
                 </div>

@@ -18,9 +18,9 @@
                     </div>
                  
                     <div class="col-md-4 mb-3">
-                        <label for="priority" class="form-label">Priority Level</label>
-                        <select name="priority" id="priority" class="form-control">
-                            <option value="" disabled-selected style="color: #999;">-Select Priority Level-</option>
+                        <label for="priority">Priority Level</label>
+                        <select name="priority" id="priority" class="form-control" required name="priority">
+                            <option value="">Select Priority</option>
                             <option value="low">Low</option>
                             <option value="medium">Medium</option>
                             <option value="high">High</option>
